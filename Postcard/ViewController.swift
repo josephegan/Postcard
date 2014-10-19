@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         
         self.messageLabel.hidden = false;
         messageLabel.text = enterMessageTxtField.text;
+        //adding comment to test submits
         enterMessageTxtField.text = "";
         enterMessageTxtField.resignFirstResponder();
         messageLabel.textColor = UIColor.redColor();
